@@ -164,6 +164,7 @@ GEM
       actionpack (>= 5.2)
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
+    sqlite3 (1.4.2)
     thor (1.2.1)
     thread_safe (0.3.6)
     tzinfo (1.2.9)
@@ -193,6 +194,7 @@ DEPENDENCIES
   rspec_junit_formatter
   shoulda-matchers
   simplecov
+  sqlite3
   tzinfo-data
 
 RUBY VERSION
