@@ -15,6 +15,14 @@ RSpec.describe 'Openlibrary API Endpoint' do
 
       expect(data).to be_a Hash
       expect(data[:attributes].keys).to eq([:destination, :forecast, :total_books_found, :books])
+      expect(data[:attributes][:books].size).to eq 5
+      expect(data[:attributes].keys).to_not eq([:min_temp, :max_temp] )
+    end
+
+    it 'returns attributes of books that are isbn, title, and publisher ' do
+      data = JSON.parse(response.body, symbolize_names: true)
+
+      expect(data[:attributes][:books].first.keys).to eq([:isbn, :title, :publisher])
     end
   end
 
