@@ -1,7 +1,7 @@
 class Api::V1::BooksController < ApplicationController
 
   def search
-    if params[:quantity] > 0
+    if params[:quantity].to_i > 0
       location = WeatherFacade.coordinates(params[:location])
       weather = WeatherFacade.weather(location.lat, location.lon)
       data = BookFacade.books(location.city, params[:quantity])

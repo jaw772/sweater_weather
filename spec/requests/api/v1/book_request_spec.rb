@@ -17,4 +17,14 @@ RSpec.describe 'Openlibrary API Endpoint' do
       expect(data[:attributes].keys).to eq([:destination, :forecast, :total_books_found, :books])
     end
   end
+
+  describe 'edge cases/sad paths' do
+    it 'returns a bad request if quantity is below 0' do
+      get "/api/v1/book-search?location=denver,co&quantity=-4"
+      data = JSON.parse(response.body, symbolize_names: true)
+
+      expect(response).to_not be_successful
+      expect(data[:message]).to eq 'Quantity cannot be less than 0'
+    end
+  end
 end

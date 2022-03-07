@@ -1,7 +1,8 @@
 require 'rails_helper'
+require 'webmock/rspec'
 
 RSpec.describe BookFacade do
-  it '#get_books' do
+  it '::books' do
     response = File.read('spec/fixtures/books.json')
     stub_request(:get, 'http://openlibrary.org/search.json?title=denver&limit=5')
       .to_return({
