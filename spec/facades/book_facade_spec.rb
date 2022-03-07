@@ -8,10 +8,10 @@ RSpec.describe BookFacade do
                    status: 200,
                    body: response
                  })
-
-    expect(BookFacade.books[:attributes][:books].first).to be_a Book
-    expect(BookFacade.books[:attributes][:books].last).to be_a Book
-    expect(BookFacade.books[:attributes][:books].count).to eq(5)
+    books = BookFacade.books("denver", "5")
+    expect(books[:docs].first[:title]).to eq 'East of Denver'
+    expect(books[:docs].last[:title]).to eq 'Water-quality assessment for Arvada Reservoir, Denver metropolitan area, Colorado'
+    expect(books[:docs].count).to eq(5)
 
   end
 end

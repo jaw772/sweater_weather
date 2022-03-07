@@ -1,4 +1,4 @@
-class BackgroundSerializer
+class BookSerializer
   include JSONAPI::Serializer
   set_id 'null'
   set_type 'books'
@@ -6,18 +6,18 @@ class BackgroundSerializer
     {
       'attributes': {
         'destination': location,
-          'forecast': {
-            'summary': data[:photos].first[:src][:original],
-            'temperature':
-          },
-          'total_books_found': data[:numFound],
-          'books': data[:docs].map do |book|
-            {
-            'isbn': book[:isbn].first(5),
-            'title': book[:title],
-            'publisher': book[:publisher].first(5)
-            }
-        }
+        'forecast': {
+          'summary': weather[:current][:weather].first[:description],
+          'temperature':weather[:current][:temp]
+        },
+        'total_books_found': data[:numFound],
+        'books': data[:docs].map do |book|
+          {
+          'isbn': book[:isbn],
+          'title': book[:title],
+          'publisher': book[:publisher]
+          }
+        end
       }
     }
   end
