@@ -1,5 +1,5 @@
 class Coords
-  attr_reader :lat, :lon, :county
+  attr_reader :lat, :lon, :county, :city
 
   def initialize(data)
     result = data[:results].first
@@ -7,5 +7,6 @@ class Coords
     @lat = location[:latLng][:lat]
     @lon = location[:latLng][:lng]
     @county = location[:adminArea4]
+    @city = location[:adminArea5]
   end
 end

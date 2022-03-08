@@ -1,0 +1,552 @@
+{
+  "numFound": 1832,
+  "start": 0,
+  "numFoundExact": true,
+  "docs": [
+  {
+    "key": "/works/OL16167700W",
+    "type": "work",
+    "seed": [],
+    "title": "East of Denver",
+    "title_suggest": "East of Denver",
+    "has_fulltext": true,
+    "edition_count": 6,
+    "edition_key": [],
+    "publish_date": [],
+    "publish_year": [],
+    "first_publish_year": 2012,
+    "lccn": [
+      "2011037050"
+    ],
+    "publish_place": [
+      "New York"
+    ],
+    "lcc": [
+    "PS-3608.00000000.I4293 E27 2012"
+    ],
+    "isbn": [],
+    "last_modified_i": 1633945788,
+    "ebook_count_i": 1,
+    "ia": [],
+    "public_scan_b": false,
+    "ia_collection_s": "inlibrary;printdisabled;internetarchivebooks;universityofcoloradoboulder-ol",
+    "lending_edition_s": "OL25046466M",
+    "lending_identifier_s": "eastofdenver0000hill",
+    "printdisabled_s": "OL25046466M",
+    "cover_edition_key": "OL25046466M",
+    "cover_i": 10061219,
+    "publisher": [
+      "Penguin Publishing Group",
+      "Dutton",
+      "Bower House",
+      "Leapfrog Press",
+      "Conundrum Press"
+    ],
+    "language": [
+      "eng"
+    ],
+    "author_key": [
+      "OL2935568A",
+      "OL7011796A"
+    ],
+    "author_name": [
+      "Gregory Hill",
+      "Gregory Hill"
+    ],
+    "subject": [
+      "Farm life",
+      "Fathers and sons",
+      "Fiction",
+      "Fathers and sons, fiction",
+      "Colorado, fiction",
+      "Fiction, humorous, general",
+      "Accessible book",
+      "Protected DAISY"
+    ],
+    "ia_box_id": [
+      "IA1718921"
+    ],
+    "publisher_facet": [
+      "Bower House",
+      "Conundrum Press",
+      "Dutton",
+      "Leapfrog Press",
+      "Penguin Publishing Group"
+    ],
+    "subject_facet": [
+      "Accessible book",
+      "Colorado, fiction",
+      "Farm life",
+      "Fathers and sons",
+      "Fathers and sons, fiction",
+      "Fiction",
+      "Fiction, humorous, general",
+      "Protected DAISY"
+    ],
+    "_version_": 1715078940777775000,
+    "lcc_sort": "PS-3608.00000000.I4293 E27 2012",
+    "author_facet": [
+      "OL2935568A Gregory Hill",
+      "OL7011796A Gregory Hill"
+    ],
+    "subject_key": [
+      "accessible_book",
+      "colorado_fiction",
+      "farm_life",
+      "fathers_and_sons",
+      "fathers_and_sons_fiction",
+      "fiction",
+      "fiction_humorous_general",
+      "protected_daisy"
+    ]
+    },
+    {
+    "key": "/works/OL11298758W",
+    "type": "work",
+    "seed": [
+    "/books/OL17064345M",
+    "/books/OL22418317M",
+    "/books/OL17974539M",
+    "/books/OL18012030M",
+    "/books/OL17516695M",
+    "/books/OL17646037M",
+    "/books/OL14915339M",
+    "/works/OL11298758W",
+    "/subjects/centennial_celebrations",
+    "/subjects/centennial_celebrations_ect",
+    "/subjects/employment",
+    "/subjects/periodicals",
+    "/subjects/spanish_americans",
+    "/subjects/spanish_language",
+    "/subjects/united_states",
+    "/subjects/united_states._bureau_of_mines",
+    "/subjects/yearbooks",
+    "/subjects/place:colorado",
+    "/authors/OL4742358A"
+    ],
+    "title": "Centennial-Bicentennial yearbook on the Spanish-speaking program of the Bureau of Mines, Department of the Interior, Denver, Colorado",
+    "title_suggest": "Centennial-Bicentennial yearbook on the Spanish-speaking program of the Bureau of Mines, Department of the Interior, Denver, Colorado",
+    "has_fulltext": false,
+    "edition_count": 7,
+    "edition_key": [
+    "OL17064345M",
+    "OL22418317M",
+    "OL17974539M",
+    "OL18012030M",
+    "OL17516695M",
+    "OL17646037M",
+    "OL14915339M"
+    ],
+    "publish_date": [
+    "1976"
+    ],
+    "publish_year": [
+    1976
+    ],
+    "first_publish_year": 1976,
+    "number_of_pages_median": 79,
+    "publish_place": [
+    "Denver Colo"
+    ],
+    "contributor": [
+    "United States. Bureau of Mines.",
+    "Vasquez, Mary Ann",
+    "Vasquez, Mary Ann.",
+    "United States. Bureau of Mines"
+    ],
+    "last_modified_i": 1291382211,
+    "ebook_count_i": 0,
+    "publisher": [
+    "Dept. of the Interior, Bureau of Mines"
+    ],
+    "language": [
+    "eng"
+    ],
+    "author_key": [
+    "OL4742358A"
+    ],
+    "author_name": [
+    "Tom Valdez"
+    ],
+    "place": [
+    "Colorado"
+    ],
+    "subject": [
+    "Centennial celebrations",
+    "Centennial celebrations, ect",
+    "Employment",
+    "Periodicals",
+    "Spanish Americans",
+    "Spanish language",
+    "United States",
+    "United States. Bureau of Mines",
+    "Yearbooks"
+    ],
+    "publisher_facet": [
+    "Dept. of the Interior, Bureau of Mines"
+    ],
+    "place_key": [
+    "colorado"
+    ],
+    "subject_facet": [
+    "Centennial celebrations",
+    "Centennial celebrations, ect",
+    "Employment",
+    "Periodicals",
+    "Spanish Americans",
+    "Spanish language",
+    "United States",
+    "United States. Bureau of Mines",
+    "Yearbooks"
+    ],
+    "_version_": 1715074792804057000,
+    "place_facet": [
+    "Colorado"
+    ],
+    "author_facet": [
+    "OL4742358A Tom Valdez"
+    ],
+    "subject_key": [
+    "centennial_celebrations",
+    "centennial_celebrations_ect",
+    "employment",
+    "periodicals",
+    "spanish_americans",
+    "spanish_language",
+    "united_states",
+    "united_states._bureau_of_mines",
+    "yearbooks"
+    ]
+    },
+    {
+    "key": "/works/OL4409265W",
+    "type": "work",
+    "seed": [
+    "/books/OL14549294M",
+    "/books/OL13924152M",
+    "/books/OL13924151M",
+    "/books/OL21012380M",
+    "/books/OL3788873M",
+    "/works/OL4409265W",
+    "/subjects/art",
+    "/subjects/catalogs",
+    "/subjects/denver_art_museum",
+    "/subjects/art_exhibitions",
+    "/subjects/art_museums",
+    "/subjects/place:colorado",
+    "/subjects/place:denver",
+    "/authors/OL871346A"
+    ],
+    "title": "The Denver Art Museum",
+    "title_suggest": "The Denver Art Museum",
+    "has_fulltext": true,
+    "edition_count": 5,
+    "edition_key": [
+    "OL14549294M",
+    "OL13924152M",
+    "OL13924151M",
+    "OL21012380M",
+    "OL3788873M"
+    ],
+    "publish_date": [
+    "1971",
+    "1965",
+    "1981"
+    ],
+    "publish_year": [
+    1971,
+    1965,
+    1981
+    ],
+    "first_publish_year": 1965,
+    "number_of_pages_median": 213,
+    "lccn": [
+    "81066357"
+    ],
+    "publish_place": [
+    "[Denver]",
+    "Denver"
+    ],
+    "oclc": [
+    "18875137",
+    "8111441"
+    ],
+    "contributor": [
+    "Bach, Cile M."
+    ],
+    "lcc": [
+    "N--0559.00000000.D4A83",
+    "N--0559.00000000.D4 A55 1976",
+    "N--0559.00000000.D4 A83"
+    ],
+    "ddc": [
+    "708.18883"
+    ],
+    "isbn": [
+    "9780914738213",
+    "0914738216"
+    ],
+    "last_modified_i": 1632880815,
+    "ebook_count_i": 1,
+    "ia": [
+    "denverartmuseumm00denv"
+    ],
+    "public_scan_b": false,
+    "ia_collection_s": "china;pma-ol;internetarchivebooks;universityofcoloradoboulder-ol;printdisabled;denverpubliclibrary-ol;inlibrary;fav-bravenewjanitor",
+    "lending_edition_s": "OL3788873M",
+    "lending_identifier_s": "denverartmuseumm00denv",
+    "printdisabled_s": "OL3788873M",
+    "cover_edition_key": "OL3788873M",
+    "cover_i": 4325858,
+    "publisher": [
+    "Denver Art Museum",
+    "Denver ArtMuseum",
+    "The Museum"
+    ],
+    "language": [
+    "eng"
+    ],
+    "author_key": [
+    "OL871346A"
+    ],
+    "author_name": [
+    "Denver Art Museum."
+    ],
+    "place": [
+    "Colorado",
+    "Denver"
+    ],
+    "subject": [
+    "Art",
+    "Catalogs",
+    "Denver Art Museum",
+    "Art, exhibitions",
+    "Art museums",
+    "Accessible book",
+    "Protected DAISY"
+    ],
+    "id_librarything": [
+    "1576992"
+    ],
+    "ia_loaded_id": [
+    "denverartmuseumm00denv"
+    ],
+    "ia_box_id": [
+    "IA121804"
+    ],
+    "publisher_facet": [
+    "Denver Art Museum",
+    "Denver ArtMuseum",
+    "The Museum"
+    ],
+    "place_key": [
+    "colorado",
+    "denver"
+    ],
+    "subject_facet": [
+    "Accessible book",
+    "Art",
+    "Art museums",
+    "Art, exhibitions",
+    "Catalogs",
+    "Denver Art Museum",
+    "Protected DAISY"
+    ],
+    "_version_": 1715092043081973800,
+    "place_facet": [
+    "Colorado",
+    "Denver"
+    ],
+    "lcc_sort": "N--0559.00000000.D4 A55 1976",
+    "author_facet": [
+    "OL871346A Denver Art Museum."
+    ],
+    "subject_key": [
+    "accessible_book",
+    "art",
+    "art_exhibitions",
+    "art_museums",
+    "catalogs",
+    "denver_art_museum",
+    "protected_daisy"
+    ],
+    "ddc_sort": "708.18883"
+    },
+    {
+    "key": "/works/OL6022620W",
+    "type": "work",
+    "seed": [
+    "/books/OL17125439M",
+    "/books/OL15302450M",
+    "/books/OL17076094M",
+    "/books/OL18035824M",
+    "/books/OL13606774M",
+    "/works/OL6022620W",
+    "/subjects/dams",
+    "/subjects/electric_prospecting",
+    "/subjects/hydraulic_structures",
+    "/subjects/place:colorado",
+    "/authors/OL1512536A"
+    ],
+    "title": "Self-potential surveys near several Denver Water Department dams",
+    "title_suggest": "Self-potential surveys near several Denver Water Department dams",
+    "has_fulltext": false,
+    "edition_count": 5,
+    "edition_key": [
+    "OL17125439M",
+    "OL15302450M",
+    "OL17076094M",
+    "OL18035824M",
+    "OL13606774M"
+    ],
+    "publish_date": [
+    "1983"
+    ],
+    "publish_year": [
+    1983
+    ],
+    "first_publish_year": 1983,
+    "publish_place": [
+    "[Reston, Va.?]"
+    ],
+    "contributor": [
+    "Geological Survey (U.S.)"
+    ],
+    "last_modified_i": 1344922729,
+    "ebook_count_i": 0,
+    "publisher": [
+    "The Survey"
+    ],
+    "language": [
+    "eng"
+    ],
+    "author_key": [
+    "OL1512536A"
+    ],
+    "author_name": [
+    "David V. Fitterman"
+    ],
+    "place": [
+    "Colorado"
+    ],
+    "subject": [
+    "Dams",
+    "Electric prospecting",
+    "Hydraulic structures"
+    ],
+    "publisher_facet": [
+    "The Survey"
+    ],
+    "place_key": [
+    "colorado"
+    ],
+    "subject_facet": [
+    "Dams",
+    "Electric prospecting",
+    "Hydraulic structures"
+    ],
+    "_version_": 1715094102202122200,
+    "place_facet": [
+    "Colorado"
+    ],
+    "author_facet": [
+    "OL1512536A David V. Fitterman"
+    ],
+    "subject_key": [
+    "dams",
+    "electric_prospecting",
+    "hydraulic_structures"
+    ]
+    },
+    {
+    "key": "/works/OL6887843W",
+    "type": "work",
+    "seed": [
+      "/books/OL18048187M",
+      "/books/OL15343099M",
+      "/books/OL17089451M",
+      "/books/OL22409492M",
+      "/books/OL17566712M",
+      "/works/OL6887843W",
+      "/subjects/water_quality",
+      "/subjects/place:colorado",
+      "/subjects/place:denver_metropolitan_area",
+      "/authors/OL1901313A"
+    ],
+    "title": "Water-quality assessment for Arvada Reservoir, Denver metropolitan area, Colorado",
+    "title_suggest": "Water-quality assessment for Arvada Reservoir, Denver metropolitan area, Colorado",
+    "has_fulltext": false,
+    "edition_count": 5,
+    "edition_key": [
+      "OL18048187M",
+      "OL15343099M",
+      "OL17089451M",
+      "OL22409492M",
+      "OL17566712M"
+    ],
+    "publish_date": [
+      "1988"
+    ],
+    "publish_year": [
+      1988
+    ],
+    "first_publish_year": 1988,
+    "number_of_pages_median": 66,
+    "publish_place": [
+      "Denver, Colo"
+    ],
+    "contributor": [
+      "Arvada (Colo.)",
+      "Geological Survey (U.S.)",
+      "Gaggiani, Neville G."
+    ],
+    "last_modified_i": 1354101523,
+    "ebook_count_i": 0,
+    "publisher": [
+      "Dept. of the Interior, U.S. Geological Survey",
+      "Books and Open-File Reports [distributor]"
+    ],
+    "language": [
+      "eng"
+    ],
+    "author_key": [
+      "OL1901313A"
+    ],
+    "author_name": [
+      "Linda J. Britton"
+    ],
+    "place": [
+      "Colorado",
+      "Denver Metropolitan Area"
+    ],
+    "subject": [
+      "Water quality"
+    ],
+    "publisher_facet": [
+      "Books and Open-File Reports [distributor]",
+      "Dept. of the Interior, U.S. Geological Survey"
+    ],
+    "place_key": [
+      "colorado",
+      "denver_metropolitan_area"
+    ],
+    "subject_facet": [
+      "Water quality"
+    ],
+    "_version_": 1715095174083772400,
+      "place_facet": [
+      "Colorado",
+      "Denver Metropolitan Area"
+    ],
+    "author_facet": [
+      "OL1901313A Linda J. Britton"
+    ],
+    "subject_key": [
+      "water_quality"
+    ]
+    }
+    ],
+"num_found": 1832,
+"q": "",
+"offset": null
+}
