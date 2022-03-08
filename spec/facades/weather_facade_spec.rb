@@ -6,7 +6,11 @@ RSpec.describe WeatherFacade do
     expect(data).to be_a Hash
     expect(data[:lat]).to eq 39.7385
     expect(data[:lon]).to eq -104.9849
-    expect(data.keys).to eq([:lat, :lon, :timezone, :timezone_offset, :current, :hourly, :daily])
+    expect(data).to have_key(:lat)
+    expect(data).to have_key(:lon)
+    expect(data).to have_key(:current)
+    expect(data).to have_key(:hourly)
+    expect(data).to have_key(:daily)
   end
 
   it '::coordinates' do
