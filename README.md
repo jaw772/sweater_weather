@@ -52,14 +52,14 @@ Sweater Weather's purpose is to be able to take in a location and return a curre
 
 - Rails 5.2.6
 
-## Author Information
+## <ins>Author Information</ins>
 <p>
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
 </p>
-- [Josh Walsh](https://www.linkedin.com/in/jaw772/)
+[Josh Walsh](https://www.linkedin.com/in/jaw772/)
 
 <p>
   <br>
   <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
 </p>
-- [Josh Walsh](https://github.com/jaw772)
+[Josh Walsh](https://github.com/jaw772)
