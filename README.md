@@ -15,6 +15,13 @@ Sweater Weather's purpose is to be able to take in a location and return a curre
 
 <img width="940" alt="Screen Shot 2022-03-08 at 11 41 27 PM" src="https://user-images.githubusercontent.com/87674632/157386581-541fb6de-fe82-4bcb-bda0-4a6ad27ca820.png">
 
+## Paths 
+- Retrieve a background image: GET api/v1/backgrounds?location={query}
+- Retrieve the weather: GET api/v1/forecast?location={query}
+- Create a user: POST api/v1/users
+- Login a user: POST api/v1/sessions
+- Check a road trip: POST api/v1/road_trip
+
 ### API Keys
  - [OpenWeather API](https://openweathermap.org/api)
  - [Mapquest API](https://developer.mapquest.com/documentation/)
