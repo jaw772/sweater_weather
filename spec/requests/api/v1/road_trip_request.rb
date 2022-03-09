@@ -2,14 +2,14 @@ require 'rails_helper'
 
 RSpec.describe 'Road Trip' do
   let!(:user){User.create(email: 'wish@dog.com', password: 'password', password_confirmation: 'password')}
-  describe 'GET road_trip' do
+  describe 'POST road_trip' do
     it 'returns a successful response' do
       trip_params = {
         origin: 'Denver,Co',
         destination: 'Pueblo,Co',
         api_key: user.api_key
       }
-      get "/api/v1/road_trip", params: trip_params
+      post "/api/v1/road_trip", params: trip_params
       expect(response).to be_successful
     end
   end
@@ -21,7 +21,7 @@ RSpec.describe 'Road Trip' do
         destination: 'Pueblo,Co',
         api_key: '333'
       }
-      get "/api/v1/road_trip", params: trip_params
+      post "/api/v1/road_trip", params: trip_params
       expect(response).to_not be_successful
     end
 
@@ -31,7 +31,7 @@ RSpec.describe 'Road Trip' do
         destination: 'Dublin,Ireland',
         api_key: user.api_key
       }
-      get "/api/v1/road_trip", params: trip_params
+      post "/api/v1/road_trip", params: trip_params
       data = JSON.parse(response.body, symbolize_names: true)
       expect(response).to be_successful
       expect(data[:attributes][:travel_time]).to eq 'Impossible'
