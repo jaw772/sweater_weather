@@ -7,7 +7,7 @@ Rails.application.routes.draw do
         get '/forecast', to: 'forecast#index'
         get '/backgrounds', to: 'background#index'
         get '/book-search', to: 'books#search'
-        get '/road_trip', to: 'road_trip#index'
+        post '/road_trip', to: 'road_trip#index'
       end
   end
 end
